@@ -1,0 +1,32 @@
+{
+  "name": "tugas sistem pakar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.4.1",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@anvia/core": "^1.10.0",
+    "@anvia/openai": "^1.3.0",
+    "@anvia/qdrant": "^1.1.4",
+    "@qdrant/js-client-rest": "^1.19.0"
+  }
+}
